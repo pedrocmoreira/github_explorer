@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {                           
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],       //Add algumas funcionalidades                            
+    "allowJs": true,                                //Diz que podemos ter tanto arquivos em javascript quando em Typescript
+    "jsx": "react",                                 //Diz que estamos utilizando o jsx
+    "noEmit": true,                                 //Caso executemos o build da aplicação não apareça o código dela
+    "strict": true,                                 //Modo de lidar com erros dentro do Javascript 
+    "moduleResolution": "node",
+    "resolveJsonModule": true,                      //Adiciona possibilidade de importar arquivos json
+    "isolatedModules": true,                  
+    "allowSyntheticDefaultImports": true,        
+    "esModuleInterop": true,                         
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true        
+  },
+  "include": ["src"]                                 //É a questão de onde o código em typescript vai estar  
+}
